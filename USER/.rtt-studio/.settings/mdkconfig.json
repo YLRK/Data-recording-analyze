@@ -1,0 +1,160 @@
+{
+    "global": {
+        "use-micro-lib": true,
+        "output-debug-info": false,
+        "build-output-dir": "./.rtt-studio/Debug\\",
+        "list-output-dir": "..\\OBJ\\",
+        "mem-layout": {
+            "rom": [
+                {
+                    "name": "rom1",
+                    "checked": false,
+                    "address": "0x0",
+                    "size": "0x0",
+                    "is_entry": false
+                },
+                {
+                    "name": "rom2",
+                    "checked": false,
+                    "address": "0x0",
+                    "size": "0x0",
+                    "is_entry": false
+                },
+                {
+                    "name": "rom3",
+                    "checked": false,
+                    "address": "0x0",
+                    "size": "0x0",
+                    "is_entry": false
+                },
+                {
+                    "name": "irom1",
+                    "checked": true,
+                    "address": "0x8000000",
+                    "size": "0x100000",
+                    "is_entry": true
+                },
+                {
+                    "name": "irom2",
+                    "checked": false,
+                    "address": "0x0",
+                    "size": "0x0",
+                    "is_entry": false
+                }
+            ],
+            "ram": [
+                {
+                    "name": "ram1",
+                    "checked": false,
+                    "noInit": false,
+                    "address": "0x0",
+                    "size": "0x0"
+                },
+                {
+                    "name": "ram2",
+                    "checked": false,
+                    "noInit": false,
+                    "address": "0x0",
+                    "size": "0x0"
+                },
+                {
+                    "name": "ram3",
+                    "checked": false,
+                    "noInit": false,
+                    "address": "0x0",
+                    "size": "0x0"
+                },
+                {
+                    "name": "iram1",
+                    "checked": true,
+                    "noInit": false,
+                    "address": "0x20000000",
+                    "size": "0x20000"
+                },
+                {
+                    "name": "iram2",
+                    "checked": false,
+                    "noInit": false,
+                    "address": "0x10000000",
+                    "size": "0x10000"
+                }
+            ]
+        }
+    },
+    "c/cpp": {
+        "include-list": [
+            "..\\CORE",
+            "..\\OBJ",
+            "..\\USER",
+            "..\\USMART",
+            "..\\SYSTEM\\delay",
+            "..\\SYSTEM\\sys",
+            "..\\SYSTEM\\usart",
+            "..\\SYSTEM\\board",
+            "..\\HALLIB\\STM32F4xx_HAL_Driver\\Inc",
+            "..\\HARDWARE\\LED",
+            "..\\HARDWARE\\KEY",
+            "..\\HARDWARE\\LCD",
+            "..\\HARDWARE\\24CXX",
+            "..\\HARDWARE\\IIC",
+            "..\\HARDWARE\\TOUCH",
+            "..\\HARDWARE\\TIMER",
+            "..\\HARDWARE\\Inc",
+            "..\\HALLIB\\HAL_Drivers",
+            "..\\HARDWARE\\XMRAM",
+            "..\\RT-Thread\\components\\finsh",
+            "..\\RT-Thread\\include",
+            "..\\RT-Thread\\components\\drivers\\include",
+            "..\\HALLIB\\HAL_Drivers\\config",
+            "..\\Packages\\SystemView-latest\\SystemView_Src\\SEGGER",
+            "..\\Packages\\SystemView-latest\\SystemView_Src\\Config",
+            "..\\Packages\\SignalLed-latest\\inc",
+            "..\\GUI",
+            "..\\GUI\\lvgl",
+            "..\\GUI\\lv_examples",
+            "..\\GUI\\lvgl_driver",
+            "..\\GUI_APP\\FONT",
+            "..\\GUI_APP\\IMG",
+            "..\\GUI_APP\\WIN",
+            "..\\GUI_APP\\Inc"
+        ],
+        "define-list": [
+            "USE_HAL_DRIVER",
+            "STM32F407xx",
+            " __RTTHREAD__"
+        ],
+        "misc-controls": "--diag_suppress=111  --diag_suppress=550 --diag_suppress=68",
+        "execute-only-code": false,
+        "read-only-position-independent": false,
+        "read-write-position-independent": false,
+        "split-load-and-store-multiple": false,
+        "c99-mode": true,
+        "optimization": 1,
+        "optimize-for-time": false,
+        "one-elf-section-per-function": true,
+        "strict-ansi-c": false,
+        "enum-container-always-int": false,
+        "plain-char-is-signed": false,
+        "gnu-extensions": false,
+        "warnings": 2
+    },
+    "asm": {
+        "include-list": [],
+        "define-list": [],
+        "misc-controls": "",
+        "execute-only-code": false,
+        "read-only-position-independent": false,
+        "read-write-position-independent": false,
+        "split-load-and-store-multiple": false,
+        "thumb-mode": false,
+        "no-warnings": false
+    },
+    "linker": {
+        "auto-gen-scatter-file": true,
+        "linker-scatter-file": "..\\OBJ\\Template.sct",
+        "misc-controls": "",
+        "read-only-position-independent": false,
+        "read-write-position-independent": false,
+        "not-search-std-libs": false
+    }
+}

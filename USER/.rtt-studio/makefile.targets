@@ -1,0 +1,18 @@
+RM := rm -rf
+
+BRIDGE_EXE := studio-mdk-bridge.exe
+UV4_EXE := "D:\Program_Programming\Keil_v5\UV4\UV4.exe"
+UVPROJX_LOC := "B:\YLDS\Current_Work\5.Embedded_system\1.Project\EX_LAST\demo\USER\TOUCH.uvprojx"
+
+mdk_all:
+	-$(BRIDGE_EXE) --build --uv4-path $(UV4_EXE) $(UVPROJX_LOC)
+
+.PHONY: mdk_all
+
+mdk_clean:
+	-@$(RM) *
+	@echo 'success'
+
+
+
+*.elf: $(wildcard )

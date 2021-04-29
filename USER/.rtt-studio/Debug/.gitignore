@@ -1,0 +1,16 @@
+/CORE/
+/DeviceDrivers/
+/Drivers/
+/GUI/
+/GUI_APP/
+/HALLIB/
+/HARDWARE/
+/Kernel/
+/Packages/
+/SYSTEMVIEW/
+/USER/
+/USMART/
+/finsh/
+/makefile
+/objects.mk
+/sources.mk

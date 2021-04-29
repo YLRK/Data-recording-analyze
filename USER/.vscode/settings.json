@@ -1,0 +1,57 @@
+{
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "files.associations": {
+        "*.m": "matlab",
+        "lv_test_theme_1.h": "c",
+        "lv_test_theme_2.h": "c",
+        "app.h": "c",
+        "lv_ex_conf.h": "c",
+        "calendar_win.h": "c",
+        "rtc.h": "c",
+        "progress_win.h": "c",
+        "sys.h": "c",
+        "dht22.h": "c",
+        "delay.h": "c",
+        "signal_led.h": "c",
+        "stm32f4xx_hal_gpio.h": "c",
+        "main.h": "c",
+        "rtthread.h": "c",
+        "rtconfig.h": "c",
+        "atomic": "cpp",
+        "cstdint": "cpp",
+        "dht11.h": "c",
+        "led.h": "c",
+        "cpu_usage.h": "c",
+        "file_win.h": "c",
+        "chart_win.h": "c",
+        "gauge_win.h": "c",
+        "lvgl.h": "c",
+        "xutility": "c",
+        "ff.h": "c",
+        "dfs_posix.h": "c",
+        "dfs.h": "c",
+        "sdio_sdcard.h": "c",
+        "string": "c",
+        "initializer_list": "c",
+        "type_traits": "c",
+        "xstring": "c",
+        "key.h": "c"
+    }
+}
