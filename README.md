@@ -1,0 +1,2 @@
+# Data-recording-analyze
+基于STM32F407的温湿度数据记录分析仪，使用RT-Thread操作系统和Littlevgl开源GUI库设计制作，通过DHT11获取温湿度信息，并且使用文件系统每分钟将温湿度信息存到SD卡中。
